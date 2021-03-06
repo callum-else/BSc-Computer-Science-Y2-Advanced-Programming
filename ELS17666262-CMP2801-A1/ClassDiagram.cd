@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Circle">
+    <Position X="6.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACIAAAAAEAAIAAAAAAQgAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Circle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rectangle">
+    <Position X="3.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAAQEQAIAAAAAAQAgAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Rectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape">
+    <Position X="6" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQEAACAIAAAAAEEAAAAAAABAQAAAAIAAAoCAIAAAAE=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Square">
+    <Position X="6.25" Y="8.5" Width="1.75" />
+    <InheritanceLine Type="Shape" FixedToPoint="true">
+      <Path>
+        <Point X="6.875" Y="4.613" />
+        <Point X="6.875" Y="4.875" />
+        <Point X="5.875" Y="4.875" />
+        <Point X="5.875" Y="10.062" />
+        <Point X="6.25" Y="10.062" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="Movable" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="4.546" />
+        <Point X="4.75" Y="4.875" />
+        <Point X="5.875" Y="4.875" />
+        <Point X="5.875" Y="10.062" />
+        <Point X="6.25" Y="10.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAAAEAAIAAAAAAQAAAAAAAAYiAAAAAAA=</HashCode>
+      <FileName>Square.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Movable">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Movable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAYABgAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
